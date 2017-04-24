@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821D83D41EB898C400FEDA07 /* Lotusoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83AD1EB8984800FEDA07 /* Lotusoot.framework */; };
+		821D83D51EB898C800FEDA07 /* ModulePublic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83B61EB8985000FEDA07 /* ModulePublic.framework */; };
+		821D83D61EB898CD00FEDA07 /* TestAccountModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83BF1EB8985500FEDA07 /* TestAccountModule.framework */; };
+		821D83D81EB898E800FEDA07 /* TestAccountModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83BF1EB8985500FEDA07 /* TestAccountModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		821D83D91EB898F100FEDA07 /* ModulePublic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83B61EB8985000FEDA07 /* ModulePublic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		821D83DA1EB898F500FEDA07 /* Lotusoot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 821D83AD1EB8984800FEDA07 /* Lotusoot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		823F26091EADDF8E00B6D8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823F26071EADDF8E00B6D8F6 /* Main.storyboard */; };
+		823F260B1EADDF8E00B6D8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823F260A1EADDF8E00B6D8F6 /* Assets.xcassets */; };
+		823F260E1EADDF8E00B6D8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823F260C1EADDF8E00B6D8F6 /* LaunchScreen.storyboard */; };
+		823F26191EADDF8E00B6D8F6 /* NewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F26181EADDF8E00B6D8F6 /* NewProjectTests.swift */; };
+		823F26241EADDF8E00B6D8F6 /* NewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F26231EADDF8E00B6D8F6 /* NewProjectUITests.swift */; };
+		823F26351EADDFE800B6D8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F26321EADDFE800B6D8F6 /* AppDelegate.swift */; };
+		823F26361EADDFE800B6D8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F26341EADDFE800B6D8F6 /* ViewController.swift */; };
+		824342831EB5B4EF0014B171 /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 824342821EB5B4EF0014B171 /* Lotusoot.plist */; };
+		824342871EB5C3510014B171 /* MainLotusoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824342861EB5C3510014B171 /* MainLotusoot.swift */; };
+		824342891EB5C3600014B171 /* MainLotus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824342881EB5C3600014B171 /* MainLotus.swift */; };
+		828E0FA01EC01D650093EDDD /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 828E0F9F1EC01D650093EDDD /* Lotusoot.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821D83AC1EB8984800FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D834E1EB8957C00FEDA07;
+			remoteInfo = Lotusoot;
+		};
+		821D83AE1EB8984800FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83571EB8957C00FEDA07;
+			remoteInfo = LotusootTests;
+		};
+		821D83B51EB8985000FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83281EB8954E00FEDA07;
+			remoteInfo = ModulePublic;
+		};
+		821D83B71EB8985000FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83311EB8954E00FEDA07;
+			remoteInfo = ModulePublicTests;
+		};
+		821D83BE1EB8985500FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D837D1EB895EA00FEDA07;
+			remoteInfo = TestAccountModule;
+		};
+		821D83C01EB8985500FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83861EB895EA00FEDA07;
+			remoteInfo = TestAccountModuleTests;
+		};
+		821D83CE1EB898AE00FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 821D837C1EB895EA00FEDA07;
+			remoteInfo = TestAccountModule;
+		};
+		821D83D01EB898B200FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 821D83271EB8954E00FEDA07;
+			remoteInfo = ModulePublic;
+		};
+		821D83D21EB898B700FEDA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 821D834D1EB8957C00FEDA07;
+			remoteInfo = Lotusoot;
+		};
+		823F26151EADDF8E00B6D8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 823F25F81EADDF8E00B6D8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 823F25FF1EADDF8E00B6D8F6;
+			remoteInfo = NewProject;
+		};
+		823F26201EADDF8E00B6D8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 823F25F81EADDF8E00B6D8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 823F25FF1EADDF8E00B6D8F6;
+			remoteInfo = NewProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		823F263A1EADE24B00B6D8F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				821D83DA1EB898F500FEDA07 /* Lotusoot.framework in Embed Frameworks */,
+				821D83D91EB898F100FEDA07 /* ModulePublic.framework in Embed Frameworks */,
+				821D83D81EB898E800FEDA07 /* TestAccountModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lotusoot.xcodeproj; path = ../Lotusoot/Lotusoot.xcodeproj; sourceTree = "<group>"; };
+		821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModulePublic.xcodeproj; path = ../ModulePublic/ModulePublic.xcodeproj; sourceTree = "<group>"; };
+		821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestAccountModule.xcodeproj; path = ../TestAccountModule/TestAccountModule.xcodeproj; sourceTree = "<group>"; };
+		823F26001EADDF8E00B6D8F6 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823F26081EADDF8E00B6D8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823F260A1EADDF8E00B6D8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		823F260D1EADDF8E00B6D8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823F260F1EADDF8E00B6D8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		823F26141EADDF8E00B6D8F6 /* NewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		823F26181EADDF8E00B6D8F6 /* NewProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectTests.swift; sourceTree = "<group>"; };
+		823F261A1EADDF8E00B6D8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823F261F1EADDF8E00B6D8F6 /* NewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		823F26231EADDF8E00B6D8F6 /* NewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectUITests.swift; sourceTree = "<group>"; };
+		823F26251EADDF8E00B6D8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823F26321EADDFE800B6D8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823F26341EADDFE800B6D8F6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		824342821EB5B4EF0014B171 /* Lotusoot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lotusoot.plist; sourceTree = "<group>"; };
+		824342861EB5C3510014B171 /* MainLotusoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLotusoot.swift; sourceTree = "<group>"; };
+		824342881EB5C3600014B171 /* MainLotus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLotus.swift; sourceTree = "<group>"; };
+		828E0F9F1EC01D650093EDDD /* Lotusoot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lotusoot.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823F25FD1EADDF8E00B6D8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821D83D61EB898CD00FEDA07 /* TestAccountModule.framework in Frameworks */,
+				821D83D51EB898C800FEDA07 /* ModulePublic.framework in Frameworks */,
+				821D83D41EB898C400FEDA07 /* Lotusoot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F26111EADDF8E00B6D8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F261C1EADDF8E00B6D8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821D83A81EB8984800FEDA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821D83AD1EB8984800FEDA07 /* Lotusoot.framework */,
+				821D83AF1EB8984800FEDA07 /* LotusootTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821D83B11EB8984F00FEDA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821D83B61EB8985000FEDA07 /* ModulePublic.framework */,
+				821D83B81EB8985000FEDA07 /* ModulePublicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821D83BA1EB8985500FEDA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821D83BF1EB8985500FEDA07 /* TestAccountModule.framework */,
+				821D83C11EB8985500FEDA07 /* TestAccountModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823F25F71EADDF8E00B6D8F6 = {
+			isa = PBXGroup;
+			children = (
+				828E0F9F1EC01D650093EDDD /* Lotusoot.plist */,
+				821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */,
+				821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */,
+				821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */,
+				824342821EB5B4EF0014B171 /* Lotusoot.plist */,
+				823F26021EADDF8E00B6D8F6 /* NewProject */,
+				823F26171EADDF8E00B6D8F6 /* NewProjectTests */,
+				823F26221EADDF8E00B6D8F6 /* NewProjectUITests */,
+				823F26011EADDF8E00B6D8F6 /* Products */,
+				8910CEBE8D60B7DACCC3E69A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		823F26011EADDF8E00B6D8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823F26001EADDF8E00B6D8F6 /* NewProject.app */,
+				823F26141EADDF8E00B6D8F6 /* NewProjectTests.xctest */,
+				823F261F1EADDF8E00B6D8F6 /* NewProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823F26021EADDF8E00B6D8F6 /* NewProject */ = {
+			isa = PBXGroup;
+			children = (
+				824342841EB5C3200014B171 /* Lotus */,
+				824342851EB5C3200014B171 /* Lotusoot */,
+				823F26311EADDFE800B6D8F6 /* App */,
+				823F26331EADDFE800B6D8F6 /* Controller */,
+			);
+			path = NewProject;
+			sourceTree = "<group>";
+		};
+		823F26171EADDF8E00B6D8F6 /* NewProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				823F26181EADDF8E00B6D8F6 /* NewProjectTests.swift */,
+				823F261A1EADDF8E00B6D8F6 /* Info.plist */,
+			);
+			path = NewProjectTests;
+			sourceTree = "<group>";
+		};
+		823F26221EADDF8E00B6D8F6 /* NewProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				823F26231EADDF8E00B6D8F6 /* NewProjectUITests.swift */,
+				823F26251EADDF8E00B6D8F6 /* Info.plist */,
+			);
+			path = NewProjectUITests;
+			sourceTree = "<group>";
+		};
+		823F26311EADDFE800B6D8F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				823F26071EADDF8E00B6D8F6 /* Main.storyboard */,
+				823F260A1EADDF8E00B6D8F6 /* Assets.xcassets */,
+				823F260C1EADDF8E00B6D8F6 /* LaunchScreen.storyboard */,
+				823F260F1EADDF8E00B6D8F6 /* Info.plist */,
+				823F26321EADDFE800B6D8F6 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		823F26331EADDFE800B6D8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				823F26341EADDFE800B6D8F6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		824342841EB5C3200014B171 /* Lotus */ = {
+			isa = PBXGroup;
+			children = (
+				824342881EB5C3600014B171 /* MainLotus.swift */,
+			);
+			path = Lotus;
+			sourceTree = "<group>";
+		};
+		824342851EB5C3200014B171 /* Lotusoot */ = {
+			isa = PBXGroup;
+			children = (
+				824342861EB5C3510014B171 /* MainLotusoot.swift */,
+			);
+			path = Lotusoot;
+			sourceTree = "<group>";
+		};
+		8910CEBE8D60B7DACCC3E69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823F25FF1EADDF8E00B6D8F6 /* NewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823F26281EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProject" */;
+			buildPhases = (
+				82DEEF161EBAD66D00E10BE0 /* Lotusoot */,
+				823F25FC1EADDF8E00B6D8F6 /* Sources */,
+				823F25FD1EADDF8E00B6D8F6 /* Frameworks */,
+				823F25FE1EADDF8E00B6D8F6 /* Resources */,
+				823F263A1EADE24B00B6D8F6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821D83D31EB898B700FEDA07 /* PBXTargetDependency */,
+				821D83D11EB898B200FEDA07 /* PBXTargetDependency */,
+				821D83CF1EB898AE00FEDA07 /* PBXTargetDependency */,
+			);
+			name = NewProject;
+			productName = NewProject;
+			productReference = 823F26001EADDF8E00B6D8F6 /* NewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		823F26131EADDF8E00B6D8F6 /* NewProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823F262B1EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProjectTests" */;
+			buildPhases = (
+				9D8405FF5FD68FCEF5698017 /* [CP] Check Pods Manifest.lock */,
+				823F26101EADDF8E00B6D8F6 /* Sources */,
+				823F26111EADDF8E00B6D8F6 /* Frameworks */,
+				823F26121EADDF8E00B6D8F6 /* Resources */,
+				0D3D84B463E0FDEC4E614B18 /* [CP] Embed Pods Frameworks */,
+				5B69021363A400AD4EA2BAC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823F26161EADDF8E00B6D8F6 /* PBXTargetDependency */,
+			);
+			name = NewProjectTests;
+			productName = NewProjectTests;
+			productReference = 823F26141EADDF8E00B6D8F6 /* NewProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		823F261E1EADDF8E00B6D8F6 /* NewProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823F262E1EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProjectUITests" */;
+			buildPhases = (
+				1B68CCE06FD5C92B42BAF651 /* [CP] Check Pods Manifest.lock */,
+				823F261B1EADDF8E00B6D8F6 /* Sources */,
+				823F261C1EADDF8E00B6D8F6 /* Frameworks */,
+				823F261D1EADDF8E00B6D8F6 /* Resources */,
+				9481B0C7A7427582256CF8FC /* [CP] Embed Pods Frameworks */,
+				6547E19257A79DF8EDADF002 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823F26211EADDF8E00B6D8F6 /* PBXTargetDependency */,
+			);
+			name = NewProjectUITests;
+			productName = NewProjectUITests;
+			productReference = 823F261F1EADDF8E00B6D8F6 /* NewProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823F25F81EADDF8E00B6D8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "周凌宇";
+				TargetAttributes = {
+					823F25FF1EADDF8E00B6D8F6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+					};
+					823F26131EADDF8E00B6D8F6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 823F25FF1EADDF8E00B6D8F6;
+					};
+					823F261E1EADDF8E00B6D8F6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = A59RPD6993;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 823F25FF1EADDF8E00B6D8F6;
+					};
+				};
+			};
+			buildConfigurationList = 823F25FB1EADDF8E00B6D8F6 /* Build configuration list for PBXProject "NewProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823F25F71EADDF8E00B6D8F6;
+			productRefGroup = 823F26011EADDF8E00B6D8F6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 821D83A81EB8984800FEDA07 /* Products */;
+					ProjectRef = 821D83A71EB8984800FEDA07 /* Lotusoot.xcodeproj */;
+				},
+				{
+					ProductGroup = 821D83B11EB8984F00FEDA07 /* Products */;
+					ProjectRef = 821D83B01EB8984F00FEDA07 /* ModulePublic.xcodeproj */;
+				},
+				{
+					ProductGroup = 821D83BA1EB8985500FEDA07 /* Products */;
+					ProjectRef = 821D83B91EB8985500FEDA07 /* TestAccountModule.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				823F25FF1EADDF8E00B6D8F6 /* NewProject */,
+				823F26131EADDF8E00B6D8F6 /* NewProjectTests */,
+				823F261E1EADDF8E00B6D8F6 /* NewProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		821D83AD1EB8984800FEDA07 /* Lotusoot.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lotusoot.framework;
+			remoteRef = 821D83AC1EB8984800FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		821D83AF1EB8984800FEDA07 /* LotusootTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LotusootTests.xctest;
+			remoteRef = 821D83AE1EB8984800FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		821D83B61EB8985000FEDA07 /* ModulePublic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ModulePublic.framework;
+			remoteRef = 821D83B51EB8985000FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		821D83B81EB8985000FEDA07 /* ModulePublicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ModulePublicTests.xctest;
+			remoteRef = 821D83B71EB8985000FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		821D83BF1EB8985500FEDA07 /* TestAccountModule.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TestAccountModule.framework;
+			remoteRef = 821D83BE1EB8985500FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		821D83C11EB8985500FEDA07 /* TestAccountModuleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TestAccountModuleTests.xctest;
+			remoteRef = 821D83C01EB8985500FEDA07 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823F25FE1EADDF8E00B6D8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F260E1EADDF8E00B6D8F6 /* LaunchScreen.storyboard in Resources */,
+				823F260B1EADDF8E00B6D8F6 /* Assets.xcassets in Resources */,
+				823F26091EADDF8E00B6D8F6 /* Main.storyboard in Resources */,
+				824342831EB5B4EF0014B171 /* Lotusoot.plist in Resources */,
+				828E0FA01EC01D650093EDDD /* Lotusoot.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F26121EADDF8E00B6D8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F261D1EADDF8E00B6D8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3D84B463E0FDEC4E614B18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewProjectTests/Pods-NewProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B68CCE06FD5C92B42BAF651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B69021363A400AD4EA2BAC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewProjectTests/Pods-NewProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6547E19257A79DF8EDADF002 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewProjectUITests/Pods-NewProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DEEF161EBAD66D00E10BE0 /* Lotusoot */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Lotusoot;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${SRC_ROOT}../Lotusoot/Lotusoot/Lotusoot/Lotusoot.py ${SRC_ROOT}.. ${SRCROOT} Lotusoot\n# 参数1： 扫描路径\n# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址\n# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长";
+		};
+		9481B0C7A7427582256CF8FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewProjectUITests/Pods-NewProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8405FF5FD68FCEF5698017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823F25FC1EADDF8E00B6D8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F26361EADDFE800B6D8F6 /* ViewController.swift in Sources */,
+				823F26351EADDFE800B6D8F6 /* AppDelegate.swift in Sources */,
+				824342891EB5C3600014B171 /* MainLotus.swift in Sources */,
+				824342871EB5C3510014B171 /* MainLotusoot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F26101EADDF8E00B6D8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F26191EADDF8E00B6D8F6 /* NewProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823F261B1EADDF8E00B6D8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823F26241EADDF8E00B6D8F6 /* NewProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821D83CF1EB898AE00FEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestAccountModule;
+			targetProxy = 821D83CE1EB898AE00FEDA07 /* PBXContainerItemProxy */;
+		};
+		821D83D11EB898B200FEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModulePublic;
+			targetProxy = 821D83D01EB898B200FEDA07 /* PBXContainerItemProxy */;
+		};
+		821D83D31EB898B700FEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lotusoot;
+			targetProxy = 821D83D21EB898B700FEDA07 /* PBXContainerItemProxy */;
+		};
+		823F26161EADDF8E00B6D8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 823F25FF1EADDF8E00B6D8F6 /* NewProject */;
+			targetProxy = 823F26151EADDF8E00B6D8F6 /* PBXContainerItemProxy */;
+		};
+		823F26211EADDF8E00B6D8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 823F25FF1EADDF8E00B6D8F6 /* NewProject */;
+			targetProxy = 823F26201EADDF8E00B6D8F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		823F26071EADDF8E00B6D8F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823F26081EADDF8E00B6D8F6 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		823F260C1EADDF8E00B6D8F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823F260D1EADDF8E00B6D8F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		823F26261EADDF8E00B6D8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823F26271EADDF8E00B6D8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823F26291EADDF8E00B6D8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		823F262A1EADDF8E00B6D8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		823F262C1EADDF8E00B6D8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewProject.app/NewProject";
+			};
+			name = Debug;
+		};
+		823F262D1EADDF8E00B6D8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewProject.app/NewProject";
+			};
+			name = Release;
+		};
+		823F262F1EADDF8E00B6D8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NewProject;
+			};
+			name = Debug;
+		};
+		823F26301EADDF8E00B6D8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A59RPD6993;
+				INFOPLIST_FILE = NewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.NewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NewProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823F25FB1EADDF8E00B6D8F6 /* Build configuration list for PBXProject "NewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F26261EADDF8E00B6D8F6 /* Debug */,
+				823F26271EADDF8E00B6D8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823F26281EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F26291EADDF8E00B6D8F6 /* Debug */,
+				823F262A1EADDF8E00B6D8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823F262B1EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F262C1EADDF8E00B6D8F6 /* Debug */,
+				823F262D1EADDF8E00B6D8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823F262E1EADDF8E00B6D8F6 /* Build configuration list for PBXNativeTarget "NewProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823F262F1EADDF8E00B6D8F6 /* Debug */,
+				823F26301EADDF8E00B6D8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823F25F81EADDF8E00B6D8F6 /* Project object */;
+}
