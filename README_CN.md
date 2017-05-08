@@ -1,46 +1,45 @@
-
-# Lotusoot
+# Lotusoot 
 
 ![](res/Lotusoot-logo.png)
 
 ![](https://img.shields.io/badge/language-swift-orange.svg) ![](https://img.shields.io/cocoapods/l/Lotusoot.svg?style=flat) ![](https://img.shields.io/cocoapods/v/Lotusoot.svg?style=flat) [![](https://img.shields.io/badge/weibo-@小鱼周凌宇-red.svg)](http://weibo.com/coderfish)
 
-Lotusoot is a router tool and a decoupling tool of modular project.
+Swift 路由和模块通信解耦工具和规范。
+可以让模块间无耦合的调用服务、页面跳转。
 
-> [中文介绍](README_CN.md)
+> [English Introduction](README.md)
 
-## Installtion
+## 安装
 
 ```
 pod 'Lotusoot'
 ```
 
-## How to use
+## 使用
 
-### 1. Configuration
+### 1. 配置
 
-1. In Xcode: Click on your project in the file list, choose your target under `TARGETS`, click the `Build Phases` tab and add a New Run Script Phase by clicking the little plus icon in the top left
-2. Drag the new Run Script phase **above** the Compile Sources phase and **below** `Check Pods Manifest.lock`, expand it and paste the following script:
+1. 在 Xcode 中点击工程，选择你的 `Target`，点击 `Buid Phases`，添加 `New Run Script Phase`
+2. 将新建的 `Run Script` 拖拽至 `Compile Sources` 上方、`Check Pods Manifest.lock` 下方，并填入以下脚本：
 
 ![](res/Lotusoot-01.png)
 
 ```bash
 python ${PODS_ROOT}/Lotusoot/Lotusoot/Lotusoot.py ${SRC_ROOT} ${SRCROOT} Lotusoot
-# parameter1： scan path
-# parameter2： ${SRCROOT}, output path of Lotusoot.plist
-# parameter3： suffix of Lotusoot(Can bes omited), Omit leads to script execution time
+# 参数1： 扫描路径
+# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址
+# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长
 ```
 
-3. Build your project, in Finder you will now see a `Lotusoot.plist` in the `$SRCROOT-folder`, add `Lotusoot.plist` into your project and **uncheck Copy items if needed**
+3. 编译你的工程，在 Finder 中可以看到，工程目录下生成了 `Lotusoot.plist`，将其拖入工程中，`不要选择 Copy items if needed `。
 
-> Tip: Add the `Lotusoot.plist` to your .gitignore file to prevent unnecessary conflicts.
+> Tip: 可以将 `Lotusoot.plist` 放入 `.gitignore` 文件避免不要的冲突。
 
-### 2. Use
+### 2. 调用
 
-1. Call a service
+1. 服务调用
 
 ```swift
-
 let lotus = s(AccountLotus.self) 
 let accountModule: AccountLotus = LotusootCoordinator.lotusoot(lotus: lotus) as! AccountLotus
 accountModule.login(username: "admin", password: "wow") { (error) in
@@ -48,7 +47,7 @@ accountModule.login(username: "admin", password: "wow") { (error) in
 }
 ```
 
-2. Register a router
+2. 短链注册
 
 ```swift 
 let error: NSError? = LotusootRouter.register(route: "newproj://account/login") { (lotusootURL) in
@@ -56,34 +55,33 @@ let error: NSError? = LotusootRouter.register(route: "newproj://account/login") 
 }
 ```
 
-3. Open an URL
+3. 短链调用
 
 ```swift
 let param: Dictionary = ["username" : "admin",
                                  "password" : "wow"]
 
-// no call back                                 
+// 无回调                                 
 LotusootRouter.open(route: "newproj://account/login", params: param)
-// has call back
+// 有回调
 LotusootRouter.open(route: "newproj://account/login", params: param).completion { (error) in
     print(error ?? "open success")
 }
 ```
 
-```
-
-// ⚠️Not recommanded, use ?pram0=xxx lead to mismanagement
-// This method just for H5 page of Hybrid project
+```swift
+// ⚠️不推荐的用法，用 ?pram0=xxx 这样的形式导致字符串散落在各处，不易管理。
+// 但为了保证 Hybrid 项目中 H5 页面的正常跳转，提供了此种调用
 LotusootRouter.open(url: "newproj://account/login?username=zhoulingyu").completion { (error) in
     print(error ?? "open success")
 }
 ```
 
-### 3. Annotation and Suggest
+### 3. 注解与规范
 
-Good usage example of `Lotusoot`：
+`Lotusoot` 的常规用法用例是：
 
-1. Create `Public module`, where it defines `Lotus` protocol for all modules. A `Lotus` protocol defines all the functionality that open to other modules。For Example：
+1. 建立 `共用模块`，`共用模块` 中定义了各个模块的 `Lotus`，一个 `Lotus` 协议包含了一个模块的所有的能调用的方法的列表。举例如下：
 
 ```swift
 public protocol AccountLotus {
@@ -94,8 +92,7 @@ public protocol AccountLotus {
 }
 ```
 
-2. Implement the `Lotus` protocol you have defined in `Public Module`, you can call it `Lotusoot`. In `Lotusoot`, you must add Annotation for current `Lotusoot`, include: `NameSpace-@NameSpace`, `Lotusoot-@Lotusoot`, `Lotus-@Lotus`:
-
+2. 各个模块中，包含了一个实现 `公共模块` 中对应的 `Lotus`，称为 `Lotusoot`。`Lotusoot` 中具体实现了服务的逻辑，并在 `注解` 中表明了模块的 `命名空间-@NameSpace`、`Lotusoot-@Lotusoot``Lotus-@Lotus`。举例如下：
 
 ```swift
 // @NameSpace(TestAccountModule)
@@ -116,24 +113,29 @@ class AccountLotusoot: NSObject, AccountLotus {
     }
     
     func showLoginVC(username: String, password: String) {
+        // 可以用你们喜欢的非耦合方式处理跳转
+        // 或者传入 rootvc
+        // 更好的方式是自己的非耦合 UI 跳转处理模块
         print("show login view controller")
     }
 }
 ```
 
-> `Lotusoot` **MUST**  inherit from `NSObject`
+> Tip: 由于 Swift 的一些限制，目前 `Lotusoot` 必须继承 `NSObject`
 
-3. In your main project `import Lotusoot`、`import ModulePublic`.  You are free to call all the service and routers now
+3. 在主工程中 `import Lotusoot`、`import ModulePublic` 调用服务和路由。
 
-> Tip: You can refer [Demo](Demo) -> [NewProject](Demo/NewProject)
+> Tip: 具体可以查看 [Demo](Demo) -> [NewProject](Demo/NewProject)
 
 ## TO DO
 
-- [ ] Fetch router dynamically
-- [ ] Unified way of viewcontroller jump
-- [ ] Custom Animation
+- [ ] 路由动态下发
+- [ ] 根页面保存及统一跳转工具
+- [ ] 自定义动画支持
 
 ## License
 
-`Lotusoot` Use [MIT License](LICENSE)
+`Lotusoot` 使用 [MIT License](LICENSE)
+
+
 
