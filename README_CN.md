@@ -17,6 +17,14 @@ pod 'Lotusoot'
 
 ## 使用
 
+```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    // 通过 Build 阶段自动生成的 Lotusoot.plist 注册
+    LotusootCoordinator.registerAll()
+    return true
+}
+```
+
 ### 1. 配置
 
 1. 在 Xcode 中点击工程，选择你的 `Target`，点击 `Buid Phases`，添加 `New Run Script Phase`
@@ -125,7 +133,11 @@ class AccountLotusoot: NSObject, AccountLotus {
 
 3. 在主工程中 `import Lotusoot`、`import ModulePublic` 调用服务和路由。
 
-> Tip: 具体可以查看 [Demo](Demo) -> [NewProject](Demo/NewProject)
+> Tip: 具体可以查看 [Demo](Demo) -> [DemoProject](Demo/DemoProject)
+
+## Demo
+
+在这里查看 [Demo 工程](Demo/DemoProject)，请记得先编译各个 Scheme。
 
 ## TO DO
 
