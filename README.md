@@ -37,6 +37,14 @@ python ${PODS_ROOT}/Lotusoot/Lotusoot/Lotusoot.py ${SRC_ROOT} ${SRCROOT} Lotusoo
 
 ### 2. Use
 
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    // register all routes
+    LotusootCoordinator.registerAll()
+    return true
+}
+```
+
 1. Call a service
 
 ```swift
@@ -126,6 +134,10 @@ class AccountLotusoot: NSObject, AccountLotus {
 3. In your main project `import Lotusoot`、`import ModulePublic`.  You are free to call all the service and routers now
 
 > Tip: You can refer [Demo](Demo) -> [NewProject](Demo/NewProject)
+> 
+## Demo
+
+[Demo 工程](Demo/DemoProject)，Please do not forget build every `Scheme` first.
 
 ## TO DO
 
