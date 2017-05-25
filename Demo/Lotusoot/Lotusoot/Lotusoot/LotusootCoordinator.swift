@@ -56,7 +56,7 @@ public class LotusootCoordinator: NSObject {
         let lotusPlistPath = Bundle.main.path(forResource: "Lotusoot", ofType: "plist")
         if let lotusPlistPath = lotusPlistPath {
             let map = NSDictionary(contentsOfFile: lotusPlistPath)
-            registerAll(serviceMap:  map as! Dictionary<String, String>)
+            registerAll(serviceMap: map as! Dictionary<String, String>)
         }
     }
 }

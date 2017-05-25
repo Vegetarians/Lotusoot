@@ -25,6 +25,20 @@
 			remoteGlobalIDString = 821D837C1EB895EA00FEDA07;
 			remoteInfo = TestAccountModule;
 		};
+		82AFB3A81ED6AD4100C55582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AFB3A31ED6AD4100C55582 /* ModulePublic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83281EB8954E00FEDA07;
+			remoteInfo = ModulePublic;
+		};
+		82AFB3AA1ED6AD4100C55582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AFB3A31ED6AD4100C55582 /* ModulePublic.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 821D83311EB8954E00FEDA07;
+			remoteInfo = ModulePublicTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +53,7 @@
 		821D839D1EB895F300FEDA07 /* RegisterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterService.swift; sourceTree = "<group>"; };
 		821D839F1EB895F300FEDA07 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		821D83A01EB895F300FEDA07 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		82AFB3A31ED6AD4100C55582 /* ModulePublic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModulePublic.xcodeproj; path = ../ModulePublic/ModulePublic.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		821D83731EB895EA00FEDA07 = {
 			isa = PBXGroup;
 			children = (
+				82AFB3A31ED6AD4100C55582 /* ModulePublic.xcodeproj */,
 				821D837F1EB895EA00FEDA07 /* TestAccountModule */,
 				821D838A1EB895EA00FEDA07 /* TestAccountModuleTests */,
 				821D837E1EB895EA00FEDA07 /* Products */,
@@ -131,6 +147,15 @@
 				821D83A01EB895F300FEDA07 /* RegisterViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		82AFB3A41ED6AD4100C55582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AFB3A91ED6AD4100C55582 /* ModulePublic.framework */,
+				82AFB3AB1ED6AD4100C55582 /* ModulePublicTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +237,12 @@
 			mainGroup = 821D83731EB895EA00FEDA07;
 			productRefGroup = 821D837E1EB895EA00FEDA07 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 82AFB3A41ED6AD4100C55582 /* Products */;
+					ProjectRef = 82AFB3A31ED6AD4100C55582 /* ModulePublic.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				821D837C1EB895EA00FEDA07 /* TestAccountModule */,
@@ -219,6 +250,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		82AFB3A91ED6AD4100C55582 /* ModulePublic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ModulePublic.framework;
+			remoteRef = 82AFB3A81ED6AD4100C55582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82AFB3AB1ED6AD4100C55582 /* ModulePublicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ModulePublicTests.xctest;
+			remoteRef = 82AFB3AA1ED6AD4100C55582 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		821D837B1EB895EA00FEDA07 /* Resources */ = {
