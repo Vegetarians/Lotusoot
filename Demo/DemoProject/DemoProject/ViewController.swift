@@ -15,6 +15,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        let verifier = Verifier()
+//        verifier.append { () -> Bool in
+//            let hasLoggedOn = true
+//            // 自行调用
+//            if !hasLoggedOn {
+//                LotusootRouter.open(route: "newproj://account/login", params: param).completion { (error) in
+//                    print(error ?? "open success")
+//                }
+//            }
+//            return hasLoggedOn
+//        }.append { () -> Bool in
+//            let condition = true
+//            return condition
+//        }
+//
+//        verifier.verify()
+//
+//        return
+
         // --------- 服务调用 ---------
 
         // 1. 模块间调用服务

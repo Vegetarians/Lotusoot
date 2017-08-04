@@ -1,6 +1,8 @@
 import plistlib
 import re
 import os, sys
+import time
+start = time.clock()
 
 scanPath = sys.argv[1]
 lotusootFiles = []
@@ -115,3 +117,6 @@ for file in lotusootFiles:
 print 'Your lotus map is : ' + str(lotusMap)
 plistlib.writePlist(lotusMap, "Lotusoot.plist")
 print 'drag the Lotusoot.plist files into your project and uncheck Copy items if needed'
+
+elapsed = (time.clock() - start)
+print("Time used:",elapsed)

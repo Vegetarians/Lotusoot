@@ -47,8 +47,6 @@ public class LotusootRouter: NSObject {
     public static let sharedInstance = LotusootRouter()
     public var error: NSError?
     
-    
-    // TODO： 不能暴露，保证写才走啊偶
     private var routeMap: Dictionary<String, (LotusootURL) -> ()> = Dictionary<String, (LotusootURL) -> ()>()
     
     /// 获取所有注册路由

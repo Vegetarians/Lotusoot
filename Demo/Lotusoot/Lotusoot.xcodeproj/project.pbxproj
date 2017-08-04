@@ -14,6 +14,7 @@
 		821D83701EB8958A00FEDA07 /* LotusootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D836B1EB8958A00FEDA07 /* LotusootCoordinator.swift */; };
 		821D83711EB8958A00FEDA07 /* LotusootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821D836C1EB8958A00FEDA07 /* LotusootRouter.swift */; };
 		8283A25C1EBC6F5A0046E4DC /* LotusootURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A25B1EBC6F5A0046E4DC /* LotusootURL.swift */; };
+		82FDE2951ED6E1CE00E34606 /* Verifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FDE2941ED6E1CE00E34606 /* Verifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		821D836B1EB8958A00FEDA07 /* LotusootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootCoordinator.swift; sourceTree = "<group>"; };
 		821D836C1EB8958A00FEDA07 /* LotusootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootRouter.swift; sourceTree = "<group>"; };
 		8283A25B1EBC6F5A0046E4DC /* LotusootURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootURL.swift; sourceTree = "<group>"; };
+		82FDE2941ED6E1CE00E34606 /* Verifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				821D836B1EB8958A00FEDA07 /* LotusootCoordinator.swift */,
 				821D836C1EB8958A00FEDA07 /* LotusootRouter.swift */,
 				8283A25B1EBC6F5A0046E4DC /* LotusootURL.swift */,
+				82FDE2941ED6E1CE00E34606 /* Verifier.swift */,
 			);
 			path = Lotusoot;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FDE2951ED6E1CE00E34606 /* Verifier.swift in Sources */,
 				8283A25C1EBC6F5A0046E4DC /* LotusootURL.swift in Sources */,
 				821D836E1EB8958A00FEDA07 /* Extension.swift in Sources */,
 				821D83711EB8958A00FEDA07 /* LotusootRouter.swift in Sources */,
