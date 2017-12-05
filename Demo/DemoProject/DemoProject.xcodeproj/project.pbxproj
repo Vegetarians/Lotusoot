@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82AFB3CD1ED6AE1F00C55582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AFB3CB1ED6AE1F00C55582 /* Main.storyboard */; };
-		82AFB3CF1ED6AE1F00C55582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AFB3CE1ED6AE1F00C55582 /* Assets.xcassets */; };
-		82AFB3D21ED6AE1F00C55582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AFB3D01ED6AE1F00C55582 /* LaunchScreen.storyboard */; };
+		022D72F9824867B74FC46BF5 /* Pods_DemoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C107EA904C4ABA3E893861 /* Pods_DemoProjectUITests.framework */; };
+		822B18081FD6408800D14C15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822B18071FD6408800D14C15 /* Info.plist */; };
+		822B180D1FD640E400D14C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822B18091FD640E300D14C15 /* Main.storyboard */; };
+		822B180E1FD640E400D14C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822B180B1FD640E300D14C15 /* LaunchScreen.storyboard */; };
 		82AFB3DD1ED6AE1F00C55582 /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB3DC1ED6AE1F00C55582 /* DemoProjectTests.swift */; };
 		82AFB3E81ED6AE1F00C55582 /* DemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB3E71ED6AE1F00C55582 /* DemoProjectUITests.swift */; };
 		82AFB4181ED6AE8F00C55582 /* MainLotus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB4151ED6AE8F00C55582 /* MainLotus.swift */; };
 		82AFB4191ED6AE8F00C55582 /* MainLotusoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB4171ED6AE8F00C55582 /* MainLotusoot.swift */; };
 		82AFB41E1ED6AED800C55582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB41D1ED6AED800C55582 /* ViewController.swift */; };
-		82AFB41F1ED6AF5700C55582 /* TestAccountModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB40E1ED6AE4C00C55582 /* TestAccountModule.framework */; };
-		82AFB4201ED6AF5700C55582 /* TestAccountModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB40E1ED6AE4C00C55582 /* TestAccountModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82AFB4241ED6AF5F00C55582 /* ModulePublic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB4041ED6AE4800C55582 /* ModulePublic.framework */; };
-		82AFB4251ED6AF5F00C55582 /* ModulePublic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB4041ED6AE4800C55582 /* ModulePublic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82AFB4281ED6AF6400C55582 /* Lotusoot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB3FB1ED6AE4200C55582 /* Lotusoot.framework */; };
-		82AFB4291ED6AF6400C55582 /* Lotusoot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFB3FB1ED6AE4200C55582 /* Lotusoot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82AFB4361ED6B00500C55582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB4351ED6B00500C55582 /* AppDelegate.swift */; };
-		82AFB4381ED6B36900C55582 /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82AFB4371ED6B36900C55582 /* Lotusoot.plist */; };
+		82F9C7AC1FD67D6400029DDB /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */; };
+		82F9C7B31FD68A0600029DDB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7AE1FD68A0600029DDB /* Extension.swift */; };
+		82F9C7B41FD68A0600029DDB /* Lotusoot.py in Resources */ = {isa = PBXBuildFile; fileRef = 82F9C7AF1FD68A0600029DDB /* Lotusoot.py */; };
+		82F9C7B51FD68A0600029DDB /* LotusootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7B01FD68A0600029DDB /* LotusootCoordinator.swift */; };
+		82F9C7B61FD68A0600029DDB /* LotusootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7B11FD68A0600029DDB /* LotusootRouter.swift */; };
+		82F9C7B71FD68A0600029DDB /* LotusootURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7B21FD68A0600029DDB /* LotusootURL.swift */; };
+		8506302FCB5D55245C238A3B /* Pods_DemoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D3D24445EB2E09EC7BBB6 /* Pods_DemoProjectTests.framework */; };
+		BF2E96198D91DDC53B89F1F2 /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CA2B785FF4E90F61B51095 /* Pods_DemoProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,69 +42,6 @@
 			remoteGlobalIDString = 82AFB3C31ED6AE1F00C55582;
 			remoteInfo = DemoProject;
 		};
-		82AFB3FA1ED6AE4200C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D834E1EB8957C00FEDA07;
-			remoteInfo = Lotusoot;
-		};
-		82AFB3FC1ED6AE4200C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D83571EB8957C00FEDA07;
-			remoteInfo = LotusootTests;
-		};
-		82AFB4031ED6AE4800C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D83281EB8954E00FEDA07;
-			remoteInfo = ModulePublic;
-		};
-		82AFB4051ED6AE4800C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D83311EB8954E00FEDA07;
-			remoteInfo = ModulePublicTests;
-		};
-		82AFB40D1ED6AE4C00C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D837D1EB895EA00FEDA07;
-			remoteInfo = TestAccountModule;
-		};
-		82AFB40F1ED6AE4C00C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 821D83861EB895EA00FEDA07;
-			remoteInfo = TestAccountModuleTests;
-		};
-		82AFB4211ED6AF5700C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 821D837C1EB895EA00FEDA07;
-			remoteInfo = TestAccountModule;
-		};
-		82AFB4261ED6AF5F00C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 821D83271EB8954E00FEDA07;
-			remoteInfo = ModulePublic;
-		};
-		82AFB42A1ED6AF6400C55582 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 821D834D1EB8957C00FEDA07;
-			remoteInfo = Lotusoot;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,9 +51,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				82AFB4201ED6AF5700C55582 /* TestAccountModule.framework in Embed Frameworks */,
-				82AFB4251ED6AF5F00C55582 /* ModulePublic.framework in Embed Frameworks */,
-				82AFB4291ED6AF6400C55582 /* Lotusoot.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,25 +58,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		33370AFC758BA75E4588EA78 /* Pods-DemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		822B18071FD6408800D14C15 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoProject/Info.plist; sourceTree = SOURCE_ROOT; };
+		822B180A1FD640E300D14C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		822B180C1FD640E300D14C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AFB3C41ED6AE1F00C55582 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		82AFB3CC1ED6AE1F00C55582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82AFB3CE1ED6AE1F00C55582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		82AFB3D11ED6AE1F00C55582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82AFB3D31ED6AE1F00C55582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		82AFB3D81ED6AE1F00C55582 /* DemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFB3DC1ED6AE1F00C55582 /* DemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectTests.swift; sourceTree = "<group>"; };
 		82AFB3DE1ED6AE1F00C55582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82AFB3E31ED6AE1F00C55582 /* DemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFB3E71ED6AE1F00C55582 /* DemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectUITests.swift; sourceTree = "<group>"; };
 		82AFB3E91ED6AE1F00C55582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lotusoot.xcodeproj; path = ../Lotusoot/Lotusoot.xcodeproj; sourceTree = "<group>"; };
-		82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModulePublic.xcodeproj; path = ../ModulePublic/ModulePublic.xcodeproj; sourceTree = "<group>"; };
-		82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestAccountModule.xcodeproj; path = ../TestAccountModule/TestAccountModule.xcodeproj; sourceTree = "<group>"; };
 		82AFB4151ED6AE8F00C55582 /* MainLotus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLotus.swift; sourceTree = "<group>"; };
 		82AFB4171ED6AE8F00C55582 /* MainLotusoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLotusoot.swift; sourceTree = "<group>"; };
 		82AFB41D1ED6AED800C55582 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82AFB4351ED6B00500C55582 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82AFB4371ED6B36900C55582 /* Lotusoot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lotusoot.plist; sourceTree = SOURCE_ROOT; };
+		82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lotusoot.plist; sourceTree = SOURCE_ROOT; };
+		82F9C7AE1FD68A0600029DDB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		82F9C7AF1FD68A0600029DDB /* Lotusoot.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Lotusoot.py; sourceTree = "<group>"; };
+		82F9C7B01FD68A0600029DDB /* LotusootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootCoordinator.swift; sourceTree = "<group>"; };
+		82F9C7B11FD68A0600029DDB /* LotusootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootRouter.swift; sourceTree = "<group>"; };
+		82F9C7B21FD68A0600029DDB /* LotusootURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootURL.swift; sourceTree = "<group>"; };
+		87CA2B785FF4E90F61B51095 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D44F1047200AFA95BE3020 /* Pods-DemoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1249A6A0A82540C1FC16F1B /* Pods-DemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C207131EE102CBF01046748E /* Pods-DemoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C107EA904C4ABA3E893861 /* Pods_DemoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB857A01E078E9ECEC3CB044 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1D3D24445EB2E09EC7BBB6 /* Pods_DemoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4C3E37CFDA21AB52006130 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,9 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82AFB41F1ED6AF5700C55582 /* TestAccountModule.framework in Frameworks */,
-				82AFB4241ED6AF5F00C55582 /* ModulePublic.framework in Frameworks */,
-				82AFB4281ED6AF6400C55582 /* Lotusoot.framework in Frameworks */,
+				BF2E96198D91DDC53B89F1F2 /* Pods_DemoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8506302FCB5D55245C238A3B /* Pods_DemoProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,22 +110,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022D72F9824867B74FC46BF5 /* Pods_DemoProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B80C094B4B38B5F12D6770D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB857A01E078E9ECEC3CB044 /* Pods-DemoProject.debug.xcconfig */,
+				FF4C3E37CFDA21AB52006130 /* Pods-DemoProject.release.xcconfig */,
+				33370AFC758BA75E4588EA78 /* Pods-DemoProjectTests.debug.xcconfig */,
+				A1249A6A0A82540C1FC16F1B /* Pods-DemoProjectTests.release.xcconfig */,
+				C207131EE102CBF01046748E /* Pods-DemoProjectUITests.debug.xcconfig */,
+				93D44F1047200AFA95BE3020 /* Pods-DemoProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DB3D682C9318B84B31C15DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87CA2B785FF4E90F61B51095 /* Pods_DemoProject.framework */,
+				DC1D3D24445EB2E09EC7BBB6 /* Pods_DemoProjectTests.framework */,
+				C5C107EA904C4ABA3E893861 /* Pods_DemoProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		82AFB3BB1ED6AE1F00C55582 = {
 			isa = PBXGroup;
 			children = (
-				82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */,
-				82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */,
-				82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */,
 				82AFB3C61ED6AE1F00C55582 /* DemoProject */,
 				82AFB3DB1ED6AE1F00C55582 /* DemoProjectTests */,
 				82AFB3E61ED6AE1F00C55582 /* DemoProjectUITests */,
 				82AFB3C51ED6AE1F00C55582 /* Products */,
+				1B80C094B4B38B5F12D6770D /* Pods */,
+				1DB3D682C9318B84B31C15DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,10 +165,13 @@
 		82AFB3C61ED6AE1F00C55582 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				82AFB4371ED6B36900C55582 /* Lotusoot.plist */,
+				82F9C7AD1FD68A0600029DDB /* Lotusoot */,
+				82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */,
+				822B18071FD6408800D14C15 /* Info.plist */,
+				822B180B1FD640E300D14C15 /* LaunchScreen.storyboard */,
+				822B18091FD640E300D14C15 /* Main.storyboard */,
 				82AFB41D1ED6AED800C55582 /* ViewController.swift */,
 				82AFB4351ED6B00500C55582 /* AppDelegate.swift */,
-				82AFB41A1ED6AEA800C55582 /* App */,
 				82AFB4141ED6AE8F00C55582 /* Lotus */,
 				82AFB4161ED6AE8F00C55582 /* Lotusoot */,
 			);
@@ -225,33 +196,6 @@
 			path = DemoProjectUITests;
 			sourceTree = "<group>";
 		};
-		82AFB3F61ED6AE4200C55582 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82AFB3FB1ED6AE4200C55582 /* Lotusoot.framework */,
-				82AFB3FD1ED6AE4200C55582 /* LotusootTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		82AFB3FF1ED6AE4800C55582 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82AFB4041ED6AE4800C55582 /* ModulePublic.framework */,
-				82AFB4061ED6AE4800C55582 /* ModulePublicTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		82AFB4081ED6AE4C00C55582 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82AFB40E1ED6AE4C00C55582 /* TestAccountModule.framework */,
-				82AFB4101ED6AE4C00C55582 /* TestAccountModuleTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		82AFB4141ED6AE8F00C55582 /* Lotus */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,15 +212,17 @@
 			path = Lotusoot;
 			sourceTree = "<group>";
 		};
-		82AFB41A1ED6AEA800C55582 /* App */ = {
+		82F9C7AD1FD68A0600029DDB /* Lotusoot */ = {
 			isa = PBXGroup;
 			children = (
-				82AFB3CB1ED6AE1F00C55582 /* Main.storyboard */,
-				82AFB3CE1ED6AE1F00C55582 /* Assets.xcassets */,
-				82AFB3D01ED6AE1F00C55582 /* LaunchScreen.storyboard */,
-				82AFB3D31ED6AE1F00C55582 /* Info.plist */,
+				82F9C7AE1FD68A0600029DDB /* Extension.swift */,
+				82F9C7AF1FD68A0600029DDB /* Lotusoot.py */,
+				82F9C7B01FD68A0600029DDB /* LotusootCoordinator.swift */,
+				82F9C7B11FD68A0600029DDB /* LotusootRouter.swift */,
+				82F9C7B21FD68A0600029DDB /* LotusootURL.swift */,
 			);
-			path = App;
+			name = Lotusoot;
+			path = ../../../Lotusoot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,18 +232,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82AFB3EC1ED6AE1F00C55582 /* Build configuration list for PBXNativeTarget "DemoProject" */;
 			buildPhases = (
+				1C451DEE166AA06ACCEF9C8C /* [CP] Check Pods Manifest.lock */,
 				82AFB4321ED6AFAF00C55582 /* Lotusoot */,
 				82AFB3C01ED6AE1F00C55582 /* Sources */,
 				82AFB3C11ED6AE1F00C55582 /* Frameworks */,
 				82AFB3C21ED6AE1F00C55582 /* Resources */,
 				82AFB4231ED6AF5700C55582 /* Embed Frameworks */,
+				751C160B832E035CEE4874DA /* [CP] Embed Pods Frameworks */,
+				2AAB084AA4C4538CEDC068B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				82AFB4221ED6AF5700C55582 /* PBXTargetDependency */,
-				82AFB4271ED6AF5F00C55582 /* PBXTargetDependency */,
-				82AFB42B1ED6AF6400C55582 /* PBXTargetDependency */,
 			);
 			name = DemoProject;
 			productName = DemoProject;
@@ -308,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82AFB3EF1ED6AE1F00C55582 /* Build configuration list for PBXNativeTarget "DemoProjectTests" */;
 			buildPhases = (
+				1E7FCBC6F10D93A404C58C6D /* [CP] Check Pods Manifest.lock */,
 				82AFB3D41ED6AE1F00C55582 /* Sources */,
 				82AFB3D51ED6AE1F00C55582 /* Frameworks */,
 				82AFB3D61ED6AE1F00C55582 /* Resources */,
+				C59E36AA320042F86D93D2B1 /* [CP] Embed Pods Frameworks */,
+				F4BDF5A8C6A8AEBD6A20D4AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82AFB3F21ED6AE1F00C55582 /* Build configuration list for PBXNativeTarget "DemoProjectUITests" */;
 			buildPhases = (
+				11C2AE438D11AFDF54E73721 /* [CP] Check Pods Manifest.lock */,
 				82AFB3DF1ED6AE1F00C55582 /* Sources */,
 				82AFB3E01ED6AE1F00C55582 /* Frameworks */,
 				82AFB3E11ED6AE1F00C55582 /* Resources */,
+				55CAD8C255BA7D6F520D77F1 /* [CP] Embed Pods Frameworks */,
+				B722E1C4E6AB0CE8D3A894CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,20 +329,6 @@
 			mainGroup = 82AFB3BB1ED6AE1F00C55582;
 			productRefGroup = 82AFB3C51ED6AE1F00C55582 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 82AFB3F61ED6AE4200C55582 /* Products */;
-					ProjectRef = 82AFB3F51ED6AE4200C55582 /* Lotusoot.xcodeproj */;
-				},
-				{
-					ProductGroup = 82AFB3FF1ED6AE4800C55582 /* Products */;
-					ProjectRef = 82AFB3FE1ED6AE4800C55582 /* ModulePublic.xcodeproj */;
-				},
-				{
-					ProductGroup = 82AFB4081ED6AE4C00C55582 /* Products */;
-					ProjectRef = 82AFB4071ED6AE4C00C55582 /* TestAccountModule.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				82AFB3C31ED6AE1F00C55582 /* DemoProject */,
@@ -400,60 +338,16 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		82AFB3FB1ED6AE4200C55582 /* Lotusoot.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Lotusoot.framework;
-			remoteRef = 82AFB3FA1ED6AE4200C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82AFB3FD1ED6AE4200C55582 /* LotusootTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LotusootTests.xctest;
-			remoteRef = 82AFB3FC1ED6AE4200C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82AFB4041ED6AE4800C55582 /* ModulePublic.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ModulePublic.framework;
-			remoteRef = 82AFB4031ED6AE4800C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82AFB4061ED6AE4800C55582 /* ModulePublicTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ModulePublicTests.xctest;
-			remoteRef = 82AFB4051ED6AE4800C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82AFB40E1ED6AE4C00C55582 /* TestAccountModule.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = TestAccountModule.framework;
-			remoteRef = 82AFB40D1ED6AE4C00C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82AFB4101ED6AE4C00C55582 /* TestAccountModuleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = TestAccountModuleTests.xctest;
-			remoteRef = 82AFB40F1ED6AE4C00C55582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		82AFB3C21ED6AE1F00C55582 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82AFB3D21ED6AE1F00C55582 /* LaunchScreen.storyboard in Resources */,
-				82AFB4381ED6B36900C55582 /* Lotusoot.plist in Resources */,
-				82AFB3CF1ED6AE1F00C55582 /* Assets.xcassets in Resources */,
-				82AFB3CD1ED6AE1F00C55582 /* Main.storyboard in Resources */,
+				822B180D1FD640E400D14C15 /* Main.storyboard in Resources */,
+				82F9C7AC1FD67D6400029DDB /* Lotusoot.plist in Resources */,
+				822B180E1FD640E400D14C15 /* LaunchScreen.storyboard in Resources */,
+				82F9C7B41FD68A0600029DDB /* Lotusoot.py in Resources */,
+				822B18081FD6408800D14C15 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +368,110 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11C2AE438D11AFDF54E73721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C451DEE166AA06ACCEF9C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E7FCBC6F10D93A404C58C6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AAB084AA4C4538CEDC068B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CAD8C255BA7D6F520D77F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751C160B832E035CEE4874DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZLYAccountModule/ZLYAccountModule.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLYPublicModule/ZLYPublicModule.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLYAccountModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLYPublicModule.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82AFB4321ED6AFAF00C55582 /* Lotusoot */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,7 +484,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "python ${SRC_ROOT}../Lotusoot/Lotusoot/Lotusoot/Lotusoot.py ${SRC_ROOT}.. ${SRCROOT} Lotusoot\n# 参数1： 扫描路径\n# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址\n# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长";
+			shellScript = "python Lotusoot.py ${SRC_ROOT}.. ${SRCROOT} Lotusoot\n# 参数1： 扫描路径\n# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址\n# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长";
+		};
+		B722E1C4E6AB0CE8D3A894CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59E36AA320042F86D93D2B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BDF5A8C6A8AEBD6A20D4AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -495,10 +538,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F9C7B71FD68A0600029DDB /* LotusootURL.swift in Sources */,
+				82F9C7B61FD68A0600029DDB /* LotusootRouter.swift in Sources */,
+				82F9C7B31FD68A0600029DDB /* Extension.swift in Sources */,
 				82AFB4361ED6B00500C55582 /* AppDelegate.swift in Sources */,
 				82AFB4181ED6AE8F00C55582 /* MainLotus.swift in Sources */,
 				82AFB41E1ED6AED800C55582 /* ViewController.swift in Sources */,
 				82AFB4191ED6AE8F00C55582 /* MainLotusoot.swift in Sources */,
+				82F9C7B51FD68A0600029DDB /* LotusootCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,40 +578,23 @@
 			target = 82AFB3C31ED6AE1F00C55582 /* DemoProject */;
 			targetProxy = 82AFB3E41ED6AE1F00C55582 /* PBXContainerItemProxy */;
 		};
-		82AFB4221ED6AF5700C55582 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TestAccountModule;
-			targetProxy = 82AFB4211ED6AF5700C55582 /* PBXContainerItemProxy */;
-		};
-		82AFB4271ED6AF5F00C55582 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ModulePublic;
-			targetProxy = 82AFB4261ED6AF5F00C55582 /* PBXContainerItemProxy */;
-		};
-		82AFB42B1ED6AF6400C55582 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Lotusoot;
-			targetProxy = 82AFB42A1ED6AF6400C55582 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82AFB3CB1ED6AE1F00C55582 /* Main.storyboard */ = {
+		822B18091FD640E300D14C15 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82AFB3CC1ED6AE1F00C55582 /* Base */,
+				822B180A1FD640E300D14C15 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
-		82AFB3D01ED6AE1F00C55582 /* LaunchScreen.storyboard */ = {
+		822B180B1FD640E300D14C15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82AFB3D11ED6AE1F00C55582 /* Base */,
+				822B180C1FD640E300D14C15 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -665,6 +695,7 @@
 		};
 		82AFB3ED1ED6AE1F00C55582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB857A01E078E9ECEC3CB044 /* Pods-DemoProject.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,6 +709,7 @@
 		};
 		82AFB3EE1ED6AE1F00C55582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4C3E37CFDA21AB52006130 /* Pods-DemoProject.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -691,6 +723,7 @@
 		};
 		82AFB3F01ED6AE1F00C55582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33370AFC758BA75E4588EA78 /* Pods-DemoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,6 +738,7 @@
 		};
 		82AFB3F11ED6AE1F00C55582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1249A6A0A82540C1FC16F1B /* Pods-DemoProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -719,6 +753,7 @@
 		};
 		82AFB3F31ED6AE1F00C55582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C207131EE102CBF01046748E /* Pods-DemoProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoProjectUITests/Info.plist;
@@ -732,6 +767,7 @@
 		};
 		82AFB3F41ED6AE1F00C55582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D44F1047200AFA95BE3020 /* Pods-DemoProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoProjectUITests/Info.plist;

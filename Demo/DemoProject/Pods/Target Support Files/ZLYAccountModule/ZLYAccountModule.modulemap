@@ -1,0 +1,6 @@
+framework module ZLYAccountModule {
+  umbrella header "ZLYAccountModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
