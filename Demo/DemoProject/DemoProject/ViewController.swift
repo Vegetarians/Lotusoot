@@ -8,7 +8,7 @@
 
 import UIKit
 import Lotusoot
-import ModulePublic
+import ZLYPublicModule
 
 class ViewController: UIViewController {
 
