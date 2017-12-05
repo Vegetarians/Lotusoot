@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Lotusoot
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
