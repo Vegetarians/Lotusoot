@@ -8,7 +8,6 @@ target 'DemoProject' do
   use_frameworks!
 
   # Pods for DemoProject
-  pod 'Lotusoot', '~> 0.0.1'
   pod 'ZLYAccountModule', :path => '../ZLYAccountModule'
   pod 'ZLYPublicModule', '~> 0.0.1'
 
