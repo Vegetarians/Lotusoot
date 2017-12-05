@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AccountLotus</key>
-	<string>TestAccountModule.AccountLotusoot</string>
+	<string>ZLYAccountModule.AccountLotusoot</string>
 	<key>MainLotus</key>
 	<string>DemoProject.MainLotusoot</string>
 </dict>
