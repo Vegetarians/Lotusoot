@@ -1,0 +1,6 @@
+framework module ZLYPublicModule {
+  umbrella header "ZLYPublicModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
