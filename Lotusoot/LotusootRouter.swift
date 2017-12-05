@@ -8,7 +8,7 @@
 
 import UIKit
 
-public enum RouterError: Int {
+@objc public enum RouterError: Int {
     case RouteInvalid
     case Route404
     case URLInvalid
@@ -41,11 +41,11 @@ public enum RouterError: Int {
     }
 }
 
-public class LotusootRouter: NSObject {
+@objc public class LotusootRouter: NSObject {
     public typealias CompletionHandler = (NSError?) -> ()
-    static let syncQueue: DispatchQueue = DispatchQueue(label: "com.zhoulingyu.lotusoot.syncQueue", attributes: .concurrent)
-    public static let sharedInstance = LotusootRouter()
-    public var error: NSError?
+    @objc static let syncQueue: DispatchQueue = DispatchQueue(label: "com.zhoulingyu.lotusoot.syncQueue", attributes: .concurrent)
+    @objc public static let sharedInstance = LotusootRouter()
+    @objc public var error: NSError?
     
     
     // TODO： 不能暴露，保证写才走啊偶
@@ -64,14 +64,14 @@ public class LotusootRouter: NSObject {
     ///   - route: 路由模板
     ///   - handler: open url 回调
     /// - Returns: 错误详情
-    public static func register(route: String, handler: @escaping (LotusootURL) -> ()) -> NSError? {
+    @objc public static func register(route: String, handler: @escaping (LotusootURL) -> ()) -> NSError? {
         return self.sharedInstance.add(route: route, handler: handler)
     }
     
     /// 注销路由
     ///
     /// - Parameter route: 路由模板
-    public static func deregister(route: String) {
+    @objc public static func deregister(route: String) {
         return self.sharedInstance.remove(route: route)
     }
     
@@ -79,7 +79,7 @@ public class LotusootRouter: NSObject {
     ///
     /// - Parameter url: url string，可以带参数，
     /// - Returns: LotusootRouter 实例
-    public static func open(url: String)  -> LotusootRouter {
+    @objc public static func open(url: String)  -> LotusootRouter {
         let router = LotusootRouter()
         guard !url.isEmpty else {
             router.error = RouterError.URLInvalid.error()
@@ -105,7 +105,7 @@ public class LotusootRouter: NSObject {
     ///   - params: 参数字典
     /// - Returns: LotusootRouter 实例
     @discardableResult
-    public static func open(route: String, params: Dictionary<String, String>?) -> LotusootRouter {
+    @objc public static func open(route: String, params: Dictionary<String, String>?) -> LotusootRouter {
         let router = LotusootRouter()
         // 通过 url 找到对应 route
         // 防止外部传入 route 有多余字符如 ?param=xxx
@@ -138,7 +138,7 @@ public class LotusootRouter: NSObject {
         return router
     }
     
-    public func completion(_ completion: @escaping CompletionHandler) {
+    @objc public func completion(_ completion: @escaping CompletionHandler) {
         completion(error)
     }
     

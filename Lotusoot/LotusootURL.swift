@@ -8,18 +8,18 @@
 
 import UIKit
 
-public class LotusootURL {
+@objc public class LotusootURL: NSObject {
     // 使用的 URLSTR 类似 scheme://module/page?param0=xxx&param1=xxx
     // 下面的参数将以
     // myproj://account/login
     // 为例做说明
     
     /// 模板，类似 myproj://account/login
-    public var route: String
+    @objc public var route: String
     /// 保存 param 和其内容的对应关系
-    public var params: Dictionary<String, Any>?
+    @objc public var params: Dictionary<String, Any>?
     
-    public init?(route: String, url: String) {
+    @objc public init?(route: String, url: String) {
         // 验证合法性
         guard URL(string: route) != nil else {
             return nil
@@ -36,7 +36,7 @@ public class LotusootURL {
         self.params = LotusootURL.params(url: url)
     }
     
-    convenience public init?(url: String) {
+    @objc convenience public init?(url: String) {
         guard let route = LotusootURL.route(url: url) else {
             return nil
         }
@@ -47,7 +47,7 @@ public class LotusootURL {
     ///
     /// - Parameter url: url string
     /// - Returns: 路由模板
-    public static func route(url: String) -> String? {
+    @objc public static func route(url: String) -> String? {
         guard let u = URL(string: url) else {
             return nil
         }
@@ -66,7 +66,7 @@ public class LotusootURL {
     ///
     /// - Parameter url: url string
     /// - Returns: 参数字典
-    public static func params(url: String) -> Dictionary<String, String>? {
+    @objc public static func params(url: String) -> Dictionary<String, String>? {
         let u = URL(string: url)
         guard let query = u?.query else {
             return nil
