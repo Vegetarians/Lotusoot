@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         // --------- 页面短链调用 ---------
 
         let error: NSError? = LotusootRouter.register(route: "newproj://account/login") { (lotusootURL) in
-            // 这里作为演示传入 nav 作为跳转，不推荐使用
             accountModule.showLoginVC(username: "admin", password: "wow")
             print(lotusootURL.params ?? "")
         }
