@@ -17,7 +17,7 @@ pod 'Lotusoot'
 
 ## 使用
 
-```
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // 通过 Build 阶段自动生成的 Lotusoot.plist 注册
     LotusootCoordinator.registerAll()
